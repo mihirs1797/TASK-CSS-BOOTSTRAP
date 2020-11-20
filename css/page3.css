@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body{
+  background-color: #e9e9e9;
+}
+
+.headerPhoto{
+    width: 80%;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .mainHeading {
+    font-size: 110px;
+    margin-top: -40px;
+  }
+  
+  .mainHeading1 {
+    font-size: 4rem;
+    margin-top: -20px;
+  }
+  
+  .moto {
+    font-size: 0.5rem;
+    margin-top: -20px;
+  }
+  
+  .mainHeading2 {
+    font-size: 2.5rem;
+  }
+  
+  .mainHeading3 {
+    font-size: 1.5rem;
+  }
+  
+  .mainHeading4 {
+    font-size: 0.8rem;
+  }
+  
+  .authorName {
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  
+  .authorNameHeading {
+    font-size: 10px;
+    font-weight: lighter;
+
+  }
+  
+  .para1 {
+    padding: 60px 40px 20px 40px;
+  }
+  
+  .para-d-15 {
+    margin-top: -15px;
+  }
+  
+  .para-t-15 {
+    margin-bottom: -15px;
+  }
+  
+  .imageClass {
+    object-fit: cover;
+    width: 100%;
+    max-height: 200px;
+  }
+  
+
+  @media (max-width: 544px) {
+    .fontStyle {
+      font-size: 12px;
+
+    }
+  
+    .mainHeading {
+      font-size: 2rem;
+      margin-top: -10px;
+    }
+  
+  
+    .mainHeading1 {
+      font-size: 2rem;
+      margin-top: 0px !important;
+    }
+  
+    .moto {
+      font-size: 0.5rem;
+      margin-top: -20px;
+    }
+  }
+  
+
+  @media (min-width: 544px) {
+    .fontStyle {
+      font-size: 12px;
+
+    }
+  
+    .mainHeading {
+      font-size: 50px;
+      margin-top: -10px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .fontStyle {
+      font-size: 12px;
+    }
+  
+    .mainHeading {
+      font-size: 65px;
+      margin-top: -10px;
+    }
+
+    .links {
+      display: none;
+  }
+  }
+  
+  @media (min-width: 992px) {
+    .fontStyle {
+      font-size: 14px;
+    }
+  
+    .mainHeading {
+      font-size: 110px;
+      margin-top: -40px;
+    }
+
+    .links {
+      display: none;
+  }
+  }
+  
+  @media (min-width: 1200px) {
+    .fontStyle {
+      font-size: 16px;
+
+    }
+  
+    .mainHeading {
+      font-size: 110px;
+      margin-top: -40px;
+    }
+
+    .links {
+      display: none;
+  }
+  }
+  
